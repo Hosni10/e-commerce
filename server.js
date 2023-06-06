@@ -2,7 +2,7 @@ import express from "express";
 import { dbConnection } from "./database/dbConnection.js";
 import  categoryRouter  from "./src/modules/category/category.router.js";
 import morgan from "morgan";
-import dotenv from 'dotenv'
+import dotenv from 'dotenv';
 import  AppError  from "./src/utils/AppError.js";
 import { globalErrorMiddleware } from "./src/middleware/globalErrorMiddleware.js";
 import subCategoryRouter from "./src/modules/subcategory/subcategory.router.js";
